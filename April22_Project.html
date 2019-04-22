@@ -21,12 +21,18 @@
 	var map;
 	var parks = [
 		{"park":"Yellowstone","coords":[44.4280,-110.5885]},
-		{"park":"Glacier","coords":[48.7596, -113.7870]}
+		{"park":"Glacier","coords":[48.7596, -113.7870]},
+        {"park":"Sikkim: the nature queen","coords":[27.532972,88.512218]},
+		{"park":"Guanghzhou:China","coords":[23.129110, 113.264385]},
+        {"park":"Kerala","coords":[10.850516,76.271083]},
+		{"park":"MY COLLEGE","coords":[43.773342, -79.335950]},
+        {"park":"Jalandhar: MY HOME","coords":[31.326015,-75.576183]},
+		{"park":"Vancouver","coords":[49.282729,-123.120738]},
 		];
 
 	function initMap() {
 		map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
+			zoom: 3,
 			center: new google.maps.LatLng(44, -110),
 			mapTypeId: 'terrain'
 		});
